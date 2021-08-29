@@ -19,7 +19,7 @@ public class Main {
         //jda = new JDABuilder(AccountType.BOT).setToken("NzA4NDM5MDQ0ODI4MTY4MjMz.XrXXbQ.sK-buHyphRizlrfMI_IXkWGGfqQ").build();
         System.out.println("Finished creating everything");
         //jda = JDABuilder.createDefault("NzA4NDM5MDQ0ODI4MTY4MjMz.XrXXbQ.sK-buHyphRizlrfMI_IXkWGGfqQ").enableIntents(GatewayIntent.GUILD_MEMBERS).build();
-        jda = JDABuilder.createDefault("NzA4NDM5MDQ0ODI4MTY4MjMz.XrXXbQ.sK-buHyphRizlrfMI_IXkWGGfqQ").build();
+        jda = JDABuilder.createDefault(Pass.token).build();
         jda.getPresence().setStatus(OnlineStatus.ONLINE);
         //jda.getPresence().setActivity(Activity.playing("Genshin Impact"));
        // jda.getPresence().setActivity(Activity.playing("\uD83C\uDF6ACookie Clicker\uD83C\uDF6A"));
